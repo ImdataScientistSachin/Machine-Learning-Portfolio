@@ -26,13 +26,13 @@ cd Feature\ Engineering
 pip install -r requirements.txt
 
 # Run the main pipeline
-python Feature\ Transformation/Pipelines_29/Pipelines_Intro.py
+python Feature\ Transformation/Pipelines/Pipelines_Intro.py
 
 # See a complete end-to-end example
-python Feature\ Transformation/Pipelines_29/dataset_with_pipeline_part_3.py
+python Feature\ Transformation/Pipelines/dataset_with_pipeline_part_3.py
 
 # Make predictions with serialized model
-python Feature\ Transformation/Pipelines_29/predict_with_pipeline_part4.py
+python Feature\ Transformation/Pipelines/predict_with_pipeline_part4.py
 ```
 
 > 📸 **Visual Diagrams**: For a quick visual overview, see the ASCII pipeline architecture below. Consider downloading the full pipeline flowchart PNG from the `visuals/` directory for presentation slides.
@@ -126,7 +126,7 @@ Feature Transformation/
 │   ├─ MICE (Chained Equations)
 │   └─ AutoML Parameter Selection (GridSearchCV)
 │
-└── Pipelines_29/  [Production ML Pipeline]
+└── Pipelines/  [Production ML Pipeline]
     ├─ Pipelines_Intro.py (architecture)
     ├─ dataset_with_pipeline_part_3.py (implementation)
     ├─ predict_with_pipeline_part4.py (deployment)
@@ -411,7 +411,7 @@ print(f"See: Feature_Eng_40_ChainedEquation.py for full deployment")
 
 ### **🚀 For ML Engineers**
 - **Focus**: Pipeline architecture & deployment  
-- **Key Files**: `Pipelines_29/`  
+- **Key Files**: `Pipelines/`  
 - **Key Skill**: Reproducible workflows  
 
 ### **📊 For Data Scientists**
@@ -463,13 +463,13 @@ conda install pandas numpy scikit-learn matplotlib seaborn
 ### **Run Examples**
 ```bash
 # Quick start: pipeline overview
-python Feature_Transformation/Pipelines_29/Pipelines_Intro.py
+python Feature_Transformation/Pipelines/Pipelines_Intro.py
 
 # Full example: end-to-end implementation
-python Feature_Transformation/Pipelines_29/dataset_with_pipeline_part_3.py
+python Feature_Transformation/Pipelines/dataset_with_pipeline_part_3.py
 
 # Production example: load model & predict
-python Feature_Transformation/Pipelines_29/predict_with_pipeline_part4.py
+python Feature_Transformation/Pipelines/predict_with_pipeline_part4.py
 
 # Technique comparison: KNN imputation
 python "Feature_Transformation/Handling_Numerical_Missing_Data/Feature_Eng_39_Multivariate_Imputation_KNN.py"
